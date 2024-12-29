@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <center><img src="https://png.pngtree.com/png-vector/20221116/ourmid/pngtree-designing-a-travel-logo-icon-for-a-corporate-travel-agency-vector-png-image_34661756.png" width="335" height="150" border="0" alt=""></center>
+   <center><a href="Home.html">Home</a>
+   <a href="Destinations.html">Destinations</a>
+   <a href="Travel Blog.html">Travel Blog</a>
+   <a href="Travel Tips.html">Travel Tips</a>
+   <a href="Registration.html">Registration</a>
+   <a href="Login.html">Login</a>
+   <a href="ContactUs.html">ContactUs</a>
+   </center>
+   <hr>
+   <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXHjt9Elyn_KI7ZTRSd75Nm7UDfcv3h43ng&s" width="1200" height="300" border="0" alt=""></center>
+   <center><h2>List of Travel Tips</h2></center>
+<center><table>
+<tr>
+	<td>
+    
+        <ul>
+            <li>Pack Light</li>
+            <li>Stay Hydrated</li>
+            <li>Keep your documents safe</li>
+        </ul>
+   
+	</td>
+</tr>
+</table></center>
+   <hr>
+<form method="post" action="">
+	<table>
+	<tr>
+		<td><h2>Simple Contact Form for Travelers</h2></td>
+	</tr>
+	<tr>
+		<td>Name :</td>
+		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+		<td>Email :</td>
+		<td><input type="email" name=""></td>
+	</tr>
+	<tr>
+		<td>Message</td>
+		<td><textarea name="" rows="" cols=""></textarea></td>
+	</tr>
+	<tr>
+		<td><input type="submit"></td>
+	</tr>
+	</table>
+</form>
+   <hr>
+  <footer><center><strong>&copy;All copy right is reserved</strong></center></footer>
+ </body>
+</html>

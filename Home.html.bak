@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+   <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD9mU8kaF2pAkHwulU8-QiAyz6Dq2eb3W7rg&s" width="200" height="100" border="0" alt=""></center>
+   <center><a href="Home.html">Home</a>
+   <a href="Destinations.html">Destinations</a>
+   <a href="Travel Blog.html">Travel Blog</a>
+   <a href="Travel Tips.html">Travel Tips</a>
+   <a href="Registration.html">Registration</a>
+   <a href="Login.html">Login</a>
+   <a href="ContactUs.html">ContactUs</a>
+   </center>
+   <hr>
+<center><img src="https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/27199/file-manager/adventure-tourism.jpg" width="1200" height="300" border="0" alt=""></center>
+<center><h3>A beautiful travel destination</h3>
+<h4>"Explore the World"</h4>
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZWZDC0VFtper36ORiTOPnXwNM9yUGIbyyLQ&s" width="1200" height="300" border="0" alt=""></center>
+</center>
+<hr>
+<center>
+<h3>"Welcome to the ultimate travel experience."</h3></center>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<hr>
+<center><h4>Popular Destinations</h4></center>
+
+<center><table>
+<tr>
+	<td>
+	<ul>
+    <li>New zealand
+        <ul>
+            <li>Auckland</li>
+            <li>Hobbiton</li>
+            <li>Lake Tekapo</li>
+        </ul>
+    </li>
+	</ul>
+	</td>
+	<td><ul>
+    <li>France
+        <ul>
+            <li>Paris</li>
+            <li>French Alps</li>
+            <li>Colmar</li>
+        </ul>
+    </li>
+	</ul></td>
+	<td><ul>
+    <li>Indonesia 
+        <ul>
+            <li>Bali</li>
+            <li>Komodo Island</li>
+            <li>Raja Ampat</li>
+        </ul>
+    </li>
+	</ul></td>
+</tr>
+</table></center>
+<hr>
+  <footer><center><strong>&copy;All copy right is reserved</strong></center></footer>
+ </body>
+</html>

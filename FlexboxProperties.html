@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            height: 300px;
+            margin: 30px;
+            display: flex;
+        }
+        .box{
+            height: 70px;
+            width: 80px;
+        }
+        .container1{
+            background-color: aqua;
+            height: 300px;
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .container2{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        .container3{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .container4{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container5{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .container6{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        .container7{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .container8{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           justify-content: flex-end;
+        }
+        .container9{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           justify-content: center;
+        }
+        .container10{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           justify-content: space-between;
+        }
+        .container11{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           justify-content: space-around;
+        }
+        .container12{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           justify-content: space-evenly;
+        }
+        .container13{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           align-items: center;
+        }
+        .container14{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           align-items: flex-start;
+        }
+        .container15{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           align-items: flex-end;
+        }
+        .container16{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           align-items: stretch;
+        }
+        .box1{
+            width: 80px;
+        }
+        .container17{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+           align-items: baseline;
+        }
+        .container18{
+            background-color: aqua;
+            height: 200px;
+            margin: 30px;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flexbox Direction</h2>
+    <div class="container">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flexbox Direction:column</h2>
+    <div class="container1">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flexbox Direction:row</h2>
+    <div class="container2">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flexbox Direction:row-reverse</h2>
+    <div class="container3">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flex-wrap: Wrap</h2>
+    <div class="container4">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flex-wrap: nowrap</h2>
+    <div class="container5">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flex-wrap: wrap-reverse</h2>
+    <div class="container6">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Justify-Content:flex-start</h2>
+    <div class="container7">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Justify-Content:flex-end</h2>
+    <div class="container8">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Justify-Content:center</h2>
+    <div class="container9">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Justify-Content:space-between</h2>
+    <div class="container10">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Justify-Content:space-around</h2>
+    <div class="container11">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Justify-Content:space-evenly</h2>
+    <div class="container12">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>AlignItems:center</h2>
+    <div class="container13">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>AlignItems:flex-start</h2>
+    <div class="container14">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>AlignItems:flex-end</h2>
+    <div class="container15">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>AlignItems:flex-stretch</h2>
+    <div class="container16">
+        <div class="box1" style="background-color: blue;">Box1</div>
+        <div class="box1" style="background-color: brown;">Box2</div>
+        <div class="box1" style="background-color: chartreuse;">Box3</div>
+        <div class="box1" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flexbasis</h2>
+    <div class="container17">
+        <div class="box" style="background-color: blue;">Box1</div>
+        <div class="box" style="background-color: brown;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    <h2>Flex-Grow</h2>
+    <div class="container18">
+        <div class="box" style="background-color: blue; flex-grow: 1;">Box1</div>
+        <div class="box" style="background-color: brown; flex-grow: 1;">Box2</div>
+        <div class="box" style="background-color: chartreuse;">Box3</div>
+        <div class="box" style="background-color: chocolate;">Box4</div>
+    </div>
+    
+</body>
+</html>
